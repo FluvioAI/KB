@@ -1,0 +1,27 @@
+{
+  "name": "retell-knowledge-base-vercel",
+  "version": "1.0.0",
+  "description": "Retell AI Knowledge Base Serverless Functions for make.com",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "formidable": "^2.1.2",
+    "retell-sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^50.4.8"
+  },
+  "keywords": [
+    "retell-ai",
+    "knowledge-base",
+    "serverless",
+    "vercel",
+    "make.com"
+  ],
+  "author": "Otitodev",
+  "license": "MIT"
+}
